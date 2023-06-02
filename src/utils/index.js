@@ -22,9 +22,9 @@ export function hasEmoji (str = '') {
 }
 
 // 单张图片上传
-export const uploadImgServer = 'http://localhost:28019/manage-api/v1/upload/file'
+export const uploadImgServer = 'https://metamarket.tx.morfans.cn/manage-api/v1/upload/file'
 // 多张图片上传
-export const uploadImgsServer = 'http://localhost:28019/manage-api/v1/upload/files'
+export const uploadImgsServer = 'https://metamarket.tx.morfans.cn/manage-api/v1/upload/files'
 
 export const pathMap = {
   login: '登录',

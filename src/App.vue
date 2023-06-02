@@ -5,7 +5,7 @@
         <div class="head">
           <div>
             <img src="//s.weituibao.com/1582958061265/mlogo.png" alt="logo">
-            <span>vue3 admin</span>
+            <span>MetaMarket Admin Center</span>
           </div>
         </div>
         <div class="line" />

@@ -2,7 +2,7 @@
   <div class="login-body">
     <div class="login-container">
       <div class="head">
-        <img class="logo" src="https://s.yezgea02.com/1582958061265/mlogo.png" />
+        <img class="logo" src="https://metamarket.tx.morfans.cn/upload/20230609_05145454.png" />
         <div class="name">
           <div class="title">新蜂商城</div>
           <div class="tips">Vue3.0 后台管理系统</div>

@@ -131,7 +131,7 @@ const getCategory = () => {
     state.currentPage = res.currPage
     state.loading = false
     state.level = level
-    state.parentId = parent_id
+    state.parent_id = parent_id
   })
 }
 const changePage = (val) => {

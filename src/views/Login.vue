@@ -3,10 +3,6 @@
     <div class="login-container">
       <div class="head">
         <img class="logo" src="https://metamarket.tx.morfans.cn/upload/20230609_05145454.png" />
-        <div class="name">
-          <div class="title">新蜂商城</div>
-          <div class="tips">Vue3.0 后台管理系统</div>
-        </div>
       </div>
       <el-form label-position="top" :rules="state.rules" :model="state.ruleForm" ref="loginForm" class="login-form">
         <el-form-item label="账号" prop="username">
@@ -89,7 +85,7 @@ const resetForm = () => {
     padding: 40px 0 20px 0;
   }
   .head img {
-    width: 100px;
+    /* width: 100px; */
     height: 100px;
     margin-right: 20px;
   }

@@ -5,7 +5,7 @@
         <div class="head">
           <div>
             <img src="https://metamarket.tx.morfans.cn/upload/20230609_05145454.png" alt="logo" />
-            <span>MetaMarket Admin Center</span>
+            <!-- <span>MetaMarket Admin Center</span> -->
           </div>
         </div>
         <div class="line" />
@@ -18,39 +18,39 @@
         >
           <el-sub-menu index="1">
             <template #title>
-              <span>Dashboard</span>
+              <span>Meta控制台</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/"
                 ><el-icon><Odometer /></el-icon>首页</el-menu-item
               >
-              <el-menu-item index="/add"
+              <el-menu-item index="/add" style="display: none;"
                 ><el-icon><Plus /></el-icon>添加商品</el-menu-item
               >
             </el-menu-item-group>
           </el-sub-menu>
           <el-sub-menu index="2">
             <template #title>
-              <span>首页配置</span>
+              <span>Meta首页配置</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/swiper"
                 ><el-icon><Picture /></el-icon>轮播图配置</el-menu-item
               >
               <el-menu-item index="/hot"
-                ><el-icon><StarFilled /></el-icon>热销商品配置</el-menu-item
+                ><el-icon><StarFilled /></el-icon>热销配置</el-menu-item
               >
               <el-menu-item index="/new"
-                ><el-icon><Sell /></el-icon>新品上线配置</el-menu-item
+                ><el-icon><Sell /></el-icon>新品配置</el-menu-item
               >
               <el-menu-item index="/recommend"
-                ><el-icon><ShoppingCart /></el-icon>为你推荐配置</el-menu-item
+                ><el-icon><ShoppingCart /></el-icon>推荐商品配置</el-menu-item
               >
             </el-menu-item-group>
           </el-sub-menu>
           <el-sub-menu index="3">
             <template #title>
-              <span>模块管理</span>
+              <span>Meta模块管理</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/category"
@@ -69,7 +69,7 @@
           </el-sub-menu>
           <el-sub-menu index="4">
             <template #title>
-              <span>系统管理</span>
+              <span>Meta系统管理</span>
             </template>
             <el-menu-item-group>
               <el-menu-item index="/account"
@@ -143,7 +143,8 @@ router.beforeEach((to, from, next) => {
 }
 .aside {
   width: 200px !important;
-  background-color: #222832;
+  box-shadow: 0 21px 41px 0 rgba(0,0,0,.2);
+  /* background-color: #222832; */
 }
 .head {
   display: flex;
@@ -157,7 +158,7 @@ router.beforeEach((to, from, next) => {
 }
 
 .head img {
-  width: 50px;
+  /* width: 50px; */
   height: 50px;
   margin-right: 10px;
 }
